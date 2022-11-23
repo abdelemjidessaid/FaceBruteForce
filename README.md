@@ -22,9 +22,9 @@ public class GetStarted {
 
     public static void main (String[] args) {
         FaceBruteForce faceBruteForce = new FaceBruteForce(
-                "hanaa.essaid.9",
-                "D:\\MY_JAVA_PROJECTS\\FacebookBruteForce\\src\\com\\mejidprojects\\facebruteforce\\hanaa.txt",
-                "C://webdrivers//chromedriver.exe"
+                "user.example.15",
+                "D:\MyFiles\WordLists\user_1.txt",
+                "C:\MyFiles\WebDrivers\chromedriver.exe" // Modify this
         );
         faceBruteForce.startAttack();
     }
